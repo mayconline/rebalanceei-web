@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  background-color: var(--black);
+
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    span {
+      cursor: pointer;
+    }
+
+    image {
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.2rem;
+      cursor: pointer;
+    }
+
+    .icon {
+      font-size: 1.6rem;
+      color: var(--text);
+      transition: color 0.2s;
+    }
+
+    .icon:hover,
+    span:hover {
+      color: var(--background);
+    }
+  }
+
+  span {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: linear-gradient(
+    263.81deg,
+    rgba(46, 46, 46, 0.97) 42.62%,
+    rgba(0, 128, 55, 0.96) 99.1%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+
+  article {
+    padding: 2.5rem 1.5rem;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 100%;
+    flex-direction: column-reverse;
+    article {
+      padding: 2rem 1.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

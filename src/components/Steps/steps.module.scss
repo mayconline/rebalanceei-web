@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.5rem 2rem;
+
+  h3 {
+    max-width: 720px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+
+  article {
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+
+  aside {
+    width: 80%;
+    button {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    aside {
+      width: 100%;
+    }
+  }
+}
