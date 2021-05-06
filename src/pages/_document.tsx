@@ -81,6 +81,10 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://rebalanceei.vercel.app" />
           <meta property="og:site_name" content="Rebalanceei" />
           <meta property="fb:admins" content="108280398063385" />
+          <meta
+            name="facebook-domain-verification"
+            content="fz3lta77xdclo5co2ly4qhziyfqh24"
+          />
 
           {/** Meta twitter */}
           <meta name="twitter:card" content="summary" />
