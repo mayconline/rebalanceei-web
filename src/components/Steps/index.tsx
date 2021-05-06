@@ -13,6 +13,7 @@ export function Steps() {
             alt="Crie uma carteira"
             width={275}
             height={237}
+            priority
           />
           <p>Crie uma carteira</p>
           <span>Dando um nome a ela como preferir</span>
@@ -23,6 +24,7 @@ export function Steps() {
             alt="Adicione seus ativos"
             width={275}
             height={237}
+            priority
           />
           <p>Adicione seus ativos</p>
           <span>Definindo uma nota para cada ativo</span>
@@ -33,6 +35,7 @@ export function Steps() {
             alt="Rebalanceeie sua carteira"
             width={275}
             height={237}
+            priority
           />
           <p>Rebalanceeie sua carteira</p>
           <span>Baseado na sua nota para o ativo</span>

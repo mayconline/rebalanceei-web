@@ -28,6 +28,7 @@ export function Hero() {
             alt="Mockup rebalanceei"
             width={380}
             height={700}
+            priority
           />
         </div>
       </main>
