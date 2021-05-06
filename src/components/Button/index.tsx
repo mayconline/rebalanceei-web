@@ -1,12 +1,17 @@
-import Link from 'next/link';
 import styles from './button.module.scss';
+import { gtagReportConversion, URL_CONVERT } from '../../utils/gtag';
+import { useCallback } from 'react';
 
 export function Button() {
+  const handleClick = useCallback(() => {
+    gtagReportConversion(URL_CONVERT);
+  }, []);
+
   return (
     <div className={styles.container}>
-      <Link href="https://bit.ly/rebalanceei">
-        <button title="Intalar agora">Instalar agora</button>
-      </Link>
+      <button title="Intalar agora" onClick={handleClick}>
+        Instalar agora
+      </button>
     </div>
   );
 }

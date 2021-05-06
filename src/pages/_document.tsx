@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { GA_TRACKING_ID } from '../utils/gtag';
+import { GA_TRACKING_ID, GADS_TRACKING_ID } from '../utils/gtag';
 
 export default class MyDocument extends Document {
   render() {
@@ -20,6 +20,7 @@ export default class MyDocument extends Document {
               gtag('js', new Date());
               
               gtag('config', '${GA_TRACKING_ID}');
+              gtag('config', '${GADS_TRACKING_ID}');
           `,
             }}
           />
