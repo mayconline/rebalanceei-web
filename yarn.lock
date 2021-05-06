@@ -103,6 +103,11 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@types/facebook-pixel@^0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@types/facebook-pixel/-/facebook-pixel-0.0.23.tgz#59543e45a59939ce2d0891477567287317652eb4"
+  integrity sha512-i35pxgMnIIsVXQ0FB7oQre4mT3/PknttkfAZLaHS3QLQxmDA8cn3LxcLyUngKvVUckj4lU/hDjTCLoUynWl/nw==
+
 "@types/gtag.js@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.4.tgz#81427d703b5a889b4fd1c37eaae6f2a6db228e5a"
