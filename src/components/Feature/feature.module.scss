@@ -7,7 +7,7 @@
 
   h4 {
     max-width: 720px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -19,7 +19,6 @@
   max-width: 1200px;
 
   div:nth-child(1) {
-    margin-top: 2rem;
     max-width: 720px;
   }
 
@@ -30,7 +29,7 @@
     padding: 1rem 0;
     max-width: 80%;
 
-    image {
+    div {
       background-color: var(--green-light);
       border-radius: 50%;
       padding: 1rem;

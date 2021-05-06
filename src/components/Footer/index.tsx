@@ -7,19 +7,19 @@ export function Footer() {
     <footer className={styles.wrapper}>
       <div>
         <Link href="https://bit.ly/siga-rebalanceei">
-          <image>
+          <div>
             <FaInstagram className={styles.icon} title="Instagram" />
-          </image>
+          </div>
         </Link>
         <Link href="http://bit.ly/face-rebalanceei">
-          <image>
+          <div>
             <FaFacebook className={styles.icon} title="Facebook" />
-          </image>
+          </div>
         </Link>
         <Link href="https://bit.ly/inscreva-rebalanceei">
-          <image>
+          <div>
             <FaYoutube className={styles.icon} title="Youtube" />
-          </image>
+          </div>
         </Link>
       </div>
       <div>

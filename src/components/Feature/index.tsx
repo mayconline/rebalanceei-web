@@ -15,9 +15,9 @@ export function Feature() {
       <div className={styles.container}>
         <div>
           <article>
-            <image>
+            <div>
               <IoWallet className={styles.icon} title="Ativos" />
-            </image>
+            </div>
             <main>
               <p>Adicione seus ativos</p>
               <span>
@@ -27,9 +27,9 @@ export function Feature() {
             </main>
           </article>
           <article>
-            <image>
+            <div>
               <IoTrendingUp className={styles.icon} title="Rebalancear" />
-            </image>
+            </div>
             <main>
               <p>Rebalanceie sua carteira</p>
               <span>
@@ -39,18 +39,18 @@ export function Feature() {
             </main>
           </article>
           <article>
-            <image>
+            <div>
               <FiActivity className={styles.icon} title="Variação" />
-            </image>
+            </div>
             <main>
               <p>Acompanhe a rentabilidade</p>
               <span>Veja a variação das suas ações em carteira</span>
             </main>
           </article>
           <article>
-            <image>
+            <div>
               <FaChartPie className={styles.icon} title="Gráficos" />
-            </image>
+            </div>
             <main>
               <p>Gráficos</p>
               <span>
