@@ -6,7 +6,8 @@ import * as fbq from '../../utils/fbpixel';
 export function Button() {
   const handleClick = useCallback(() => {
     fbq.event('ClickInstallButton');
-    gtagReportConversion(URL_CONVERT);
+    gtagReportConversion();
+    window.open(URL_CONVERT);
   }, []);
 
   return (

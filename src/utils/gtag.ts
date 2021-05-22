@@ -8,31 +8,9 @@ export const pageview = (url: URL) => {
   });
 };
 
-type GTagEvent = {
-  action: string;
-  category: string;
-  label: string;
-  value: number;
-};
-
-export const event = ({ action, category, label, value }: GTagEvent) => {
-  window.gtag('event', action, {
-    event_category: category,
-    event_label: label,
-    value: value,
-  });
-};
-
-export const gtagReportConversion = (url: any) => {
-  var callback = function () {
-    if (typeof url != 'undefined') {
-      window.location = url;
-    }
-  };
-
+export const gtagReportConversion = () => {
   window.gtag('event', 'conversion', {
     send_to: 'AW-431819378/xkPjCIuQkZECEPKU9M0B',
-    event_callback: callback,
   });
   return false;
 };
