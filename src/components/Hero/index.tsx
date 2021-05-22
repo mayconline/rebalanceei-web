@@ -6,6 +6,7 @@ import styles from './hero.module.scss';
 export function Hero() {
   return (
     <section className={styles.wrapper}>
+      <img src="/assets/bg-hero.svg" alt="bg-color" />
       <header>
         <GPlayButton />
       </header>
