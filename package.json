@@ -15,11 +15,11 @@
     "sass": "^1.32.11"
   },
   "devDependencies": {
-    "@types/facebook-pixel": "^0.0.23",
-    "@types/gtag.js": "^0.0.4",
+    "@types/facebook-pixel": "0.0.24",
+    "@types/gtag.js": "0.0.7",
     "@types/node": "^15.0.1",
-    "@types/react": "^17.0.4",
-    "@types/react-dom": "^17.0.3",
-    "typescript": "^4.2.4"
+    "@types/react": "17.0.19",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
   }
 }
