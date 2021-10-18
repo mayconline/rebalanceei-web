@@ -11,8 +11,8 @@
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "4.2.0",
-    "sass": "1.42.1"
+    "react-icons": "4.3.1",
+    "sass": "1.43.2"
   },
   "devDependencies": {
     "@types/facebook-pixel": "0.0.24",
