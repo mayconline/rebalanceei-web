@@ -14,7 +14,7 @@
 
 #### :rocket: Use Stack
 
-- [TypeScript 3.9](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html)
+- [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [Next.js](https://nextjs.org/docs/getting-started)
 - [Landing Page Deploy](https://rebalanceei.vercel.app)
 
