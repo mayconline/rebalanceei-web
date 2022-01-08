@@ -44,7 +44,10 @@ export function Feature() {
             </div>
             <main>
               <p>Acompanhe a rentabilidade</p>
-              <span>Veja a variação das suas ações em carteira</span>
+              <span>
+                Veja a variação das suas ações em carteira e controle a evolução
+                dos seus dividendos recebidos
+              </span>
             </main>
           </article>
           <article>
