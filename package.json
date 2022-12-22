@@ -8,11 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.0.7",
+    "next": "13.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.7.1",
-    "sass": "1.57.0"
+    "sass": "1.57.1"
   },
   "devDependencies": {
     "@types/facebook-pixel": "0.0.24",
