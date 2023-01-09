@@ -23,7 +23,6 @@ export function Announcement() {
             alt="Mockup tela de gráficos e modal de carteiras do app rebalanceei"
             width={556}
             height={491}
-            priority
           />
         </div>
       </div>

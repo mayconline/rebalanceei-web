@@ -103,11 +103,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:url" content="https://rebalanceei.vercel.app" />
 
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap"
-            rel="stylesheet"
-          />
+
           <link rel="manifest" href="manifest.json" />
         </Head>
         <body>

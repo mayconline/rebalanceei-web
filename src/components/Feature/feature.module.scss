@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
 
   h4 {
     max-width: 720px;
@@ -55,15 +55,22 @@
 @media (max-width: 720px) {
   .container {
     flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
 
     article {
-      max-width: 100%;
+      min-width: 100%;
     }
 
     aside {
       button {
         width: 100%;
       }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }

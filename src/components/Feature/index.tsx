@@ -74,7 +74,6 @@ export function Feature() {
             alt="Mockup tela de rebalanceamento do app rebalanceei"
             width={380}
             height={700}
-            priority
           />
         </div>
       </div>

@@ -35,18 +35,18 @@
 
 body {
   background-color: var(--background);
-  font: 400 1.2rem 'Titillium Web', sans-serif;
+  font: 400 1.2rem var(--titillium-font), sans-serif;
   color: var(--text);
 }
 
 h1 {
-  font: 600 3.6rem/4.5rem 'Titillium Web', sans-serif;
+  font: 600 3.6rem/4.5rem var(--titillium-font), sans-serif;
   color: var(--white);
 }
 
 h2,
 h6 {
-  font: 400 1.5rem 'Titillium Web', sans-serif;
+  font: 400 1.5rem var(--titillium-font), sans-serif;
   color: var(--white);
 }
 
@@ -59,7 +59,7 @@ h4 {
 h3,
 h4,
 h5 {
-  font: 600 2.6rem/3.2rem 'Titillium Web', sans-serif;
+  font: 600 2.6rem/3.2rem var(--titillium-font), sans-serif;
 }
 
 h5 {
@@ -77,6 +77,11 @@ strong {
 }
 
 p {
-  font: 600 1.8rem 'Titillium Web', sans-serif;
+  font: 600 1.8rem var(--titillium-font), sans-serif;
   color: var(--title);
+}
+
+span {
+  font: 400 1.2rem var(--titillium-font), sans-serif;
+  color: var(--text);
 }
