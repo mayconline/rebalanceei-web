@@ -405,6 +405,25 @@ export const Privacy = () => {
         </li>
 
         <li>
+          <h4>DADOS DE CRIANÇAS E ADOLESCENTES</h4>
+
+          <p>
+            <strong>9.1.</strong>O Rebalanceei não é destinado ao público
+            infantil ou adolescente, portanto, não é esperado que menores de
+            idade se cadastrem em nossa plataforma. Não coletamos
+            intencionalmente informações de menores. Se os pais ou
+            representantes legais acreditarem que seus filhos nos enviaram dados
+            pessoais, poderão entrar em contato conosco enviando- nos um e-mail
+            para{' '}
+            <a href="mailto:rebalanceeiapp@gmail.com" rel="noopener noreferrer">
+              {' '}
+              rebalanceeiapp@gmail.com
+            </a>
+            .
+          </p>
+        </li>
+
+        <li>
           <h4>CONTATO E DÚVIDAS</h4>
 
           <p>
