@@ -84,30 +84,30 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/facebook-pixel@0.0.24":
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/@types/facebook-pixel/-/facebook-pixel-0.0.24.tgz#1f1bd1c0e022d87c1773de4e82c2b07ed1d74e54"
-  integrity sha512-0tx06lNy2CfpMu2lAio54FaYp14bPlEjquehqkOxsdZf9JMw+eSiDp9t4sYGRawSL6mve9j9G4yNMZ2cli7aOg==
+"@types/facebook-pixel@0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@types/facebook-pixel/-/facebook-pixel-0.0.27.tgz#d4fb8e54afde1f4a24c10deba4ce4b8fec6c30fc"
+  integrity sha512-Jqj1JcvsRU1gTUMx2zOYMP3y1nM+osejiGGWFZ4qH6LLb7bZp3us1itj7015piXZ+UVrm+cJS6Hcxftto+AYhA==
 
-"@types/gtag.js@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.12.tgz#095122edca896689bdfcdd73b057e23064d23572"
-  integrity sha512-YQV9bUsemkzG81Ea295/nF/5GijnD2Af7QhEofh7xu+kvCN6RdodgNwwGWXB5GMI3NoyvQo0odNctoH/qLMIpg==
+"@types/gtag.js@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.13.tgz#54d746635e09fa61242e05b574b1ac068e6a90dd"
+  integrity sha512-yOXFkfnt1DQr1v9B4ERulJOGnbdVqnPHV8NG4nkQhnu4qbrJecQ06DlaKmSjI3nzIwBj5U9/X61LY4sTc2KbaQ==
 
-"@types/node@18.11.18":
-  version "18.11.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
-  integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
+"@types/node@18.17.17":
+  version "18.17.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.17.tgz#53cc07ce582c9d7c5850702a3c2cb0af0d7b0ca1"
+  integrity sha512-cOxcXsQ2sxiwkykdJqvyFS+MLQPLvIdwh5l6gNg8qF6s+C7XSkEWOZjK+XhUZd+mYvHV/180g2cnCcIl4l06Pw==
 
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
-"@types/react-dom@18.0.10":
-  version "18.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.10.tgz#3b66dec56aa0f16a6cc26da9e9ca96c35c0b4352"
-  integrity sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==
+"@types/react-dom@18.2.7":
+  version "18.2.7"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.7.tgz#67222a08c0a6ae0a0da33c3532348277c70abb63"
+  integrity sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==
   dependencies:
     "@types/react" "*"
 
@@ -120,10 +120,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.0.27":
-  version "18.0.27"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
-  integrity sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==
+"@types/react@18.2.22":
+  version "18.2.22"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.22.tgz#abe778a1c95a07fa70df40a52d7300a40b949ccb"
+  integrity sha512-60fLTOLqzarLED2O3UQImc/lsNRgG0jE/a1mPW9KjMemY0LMITWEsbS4VvZ4p6rorEHd5YKxxmMKSDK505GHpA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
