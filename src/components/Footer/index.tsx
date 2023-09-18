@@ -26,6 +26,12 @@ export function Footer() {
         <Link href="https://conecta.bio/rebalanceei">
           <span title="@Rebalanceei">@Rebalanceei</span>
         </Link>
+
+        <Link href="/terms-privacy-policy">
+          <span title="termos of use and privacy policy">
+            Termos de Uso e Politicas de Privacidade
+          </span>
+        </Link>
       </div>
       <aside>
         <span>
