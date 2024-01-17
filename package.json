@@ -18,7 +18,7 @@
   "devDependencies": {
     "@types/facebook-pixel": "0.0.27",
     "@types/gtag.js": "0.0.13",
-    "@types/node": "18.17.17",
+    "@types/node": "20.11.5",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "typescript": "5.2.2"
